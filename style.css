@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+body{
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+ 
+}
+.desc{
+    max-width: 400px;
+}
+
+.tebel-banget {
+  font-weight: 900;
+}
+
+.tebel-sedang {
+  font-weight: bold;
+}
+
+.button {
+    background-image: linear-gradient(to right, #CC3467 0%, #FF496E 51%);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-image: linear-gradient(to right, #a22b52 0%, #ca3d59 51%);
+    color: white;
+  }
+  
+
+.gambar{
+  display: none;
+}
+
+.img{
+  width: 500px;
+  z-index: -1;
+}
+
+.link{
+  color: gray;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color: #FF496E;
+}
+
+@media screen and (max-width: 600px) {
+  .img{
+    display: none;
+    width: 500px;
+     box-sizing: border-box;
+  }
+
+  .gambar{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img{
+    display: none;
+    width: 500px;
+     box-sizing: border-box;
+  }
+
+  .gambar{
+    display: block;
+     box-sizing: border-box;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+  .img{
+    width: 500px;
+    z-index: -1;
+     box-sizing: border-box;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .img{
+    width: 300px;
+    z-index: -1;
+   box-sizing: border-box;
+  }
+
+}
+
+@media print {
+  .hidden-print {
+    display: none !important;
+     box-sizing: border-box;
+  }
+}
+
+
+section{
+  padding-top: 5rem;
+}
+
+h1{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar ul li a{
+    font-family:  'Fira Sans', sans-serif;
+}
+
+h2{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.carousel-item{
+  height: 200px;
+}
+
+frame{
+  box-sizing: border-box;
+}
